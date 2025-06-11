@@ -1,0 +1,2 @@
+C:\Users\janj\Documents\Projects\Unity\6\BaM-Construct6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\janj\Documents\Projects\Unity\6\BaM-Construct6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
