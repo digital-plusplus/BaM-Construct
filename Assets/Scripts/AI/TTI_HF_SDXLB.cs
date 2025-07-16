@@ -9,9 +9,9 @@ using UnityEngine.UI;
 public class TTI_HF_SDXLB : MonoBehaviour
 {
     private string HF_INF_API_KEY;
-    const string TTI_API_URI = "https://api-inference.huggingface.co/models/stabilityai/";      //POST URI
-    
-    private enum SDModel { stable_diffusion_3X5_large_turbo, stable_diffusion_3X5_large , stable_diffusion_xl_base_1X0}
+    const string TTI_API_URI = "https://router.huggingface.co/hf-inference/models/stabilityai/";      //POST URI
+
+    private enum SDModel { stable_diffusion_3_medium_diffusers }                 //Only one works in the free tier
     [SerializeField] SDModel selectedModel;
     string selectedSDString;
 

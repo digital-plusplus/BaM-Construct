@@ -11,7 +11,7 @@ public class LLM_Google : MonoBehaviour
 
     private enum LLMModel
     {
-        gemini_2X0_flash, gemini_2X0_flash_lite, gemini_2X5_pro_preview_03_25, gemini_1X5_pro, gemini_1X5_flash, gemini_1X5_flash_8b, gemma_3_1b_it, gemma_3_4b_it, gemma_3_12b_it, gemma_3_27B_it, gemma2_2b_it, gemma_2_9b_it, gemma_2_27b_it
+        gemini_2X0_flash, gemini_2X0_flash_lite, gemini_2X5_flash, gemini_2X5_flash_lite_preview
     }
 
     [SerializeField]
