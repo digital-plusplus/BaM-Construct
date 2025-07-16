@@ -24,8 +24,10 @@ What is new in this Branch
 ==========================
 * NPC code updated for a more secure API key storage. API keys are stored in Assets/Resources/Secure which is EXCLUDED from GitHub synchronisation (ie. in .gitignore)
 * Addition of a universal APIKeys component for the NPC which registers all AI service API keys in a central unified way and reads the APIKeys.txt file from the folder mentioned in the previous bullet.
-* NPC now has a direct Google Gemini component which supports multiple free Gemini models
+* NPC now has a direct Google Gemini LLM component which supports multiple free Gemini models: Flash2.0 and Flash2.5.
 * NPC now has a RAG component which uses a local MariaDB/MySQL server to store pdf document chunks with their embeddings. This will require a Python script to load the documents into the database and generate embeddings and also a PHP script that implements a REST API for the RAG service. Please contact me if you are interested to implement RAG, I can provide the scripts and installation instructions (currently not yet integrated in this repository).
+* Updated HuggingFace Text to Image component as the old model was no longer accessible
+* Refreshed available LLM_Groq AI models
 
 Near Future Expected Updates
 ============================
